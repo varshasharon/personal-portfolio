@@ -5,6 +5,8 @@
   display: inline-flex;
   flex-direction: row;
   z-index: -1;
+  overflow: hidden;
+
 }
 
 .bg-shape-1, .bg-shape-2, .bg-shape-3, .bg-shape-4, .bg-shape-5, .bg-shape-6, .bg-shape-7, .bg-shape-8 {
@@ -14,8 +16,8 @@
   filter: blur(50px);
 }
 
-.bg-shape-1 { width: 400px; height: 400px; animation-name: one; }
-.bg-shape-2 { width: 500px; height: 500px; animation-name: two; }
+.bg-shape-1 { width: 200px; height: 200px; animation-name: one; }
+.bg-shape-2 { width: 300px; height: 300px; animation-name: two; }
 .bg-shape-3 { width: 250px; height: 250px; animation-name: three; }
 .bg-shape-4 { width: 220px; height: 220px; animation-name: four; }
 .bg-shape-5 { width: 250px; height: 250px; animation-name: five; }
@@ -72,17 +74,17 @@
 }
 
 @keyframes four {
-  0% { left: 100vw; top: 30vh; }
+  0% { left: 80vw; top: 30vh; }
   10% { left: 5vw; top: 20vh; }
   20% { left: 75vw; top: 40vh; }
   30% { left: 10vw; top: 60vh; }
   40% { left: 20vw; top: 30vh; }
   50% { left: 5vw; top: 80vh; }
-  60% { left: 60vw; top: 100vh; }
+  60% { left: 60vw; top: 90vh; }
   70% { left: 50vw; top: 10vh; }
   80% { left: 30vw; top: 50vh; }
   90% { left: 5vw; top: 10vh; }
-  100% { left: 100vw; top: 30vh; }
+  100% { left: 80vw; top: 30vh; }
 }
 
 @keyframes five {
@@ -94,23 +96,23 @@
   50% { left: 10vw; top: 60vh; }
   60% { left: 15vw; top: 80vh; }
   70% { left: 25vw; top: 40vh; }
-  80% { left: 0; top: 100vh; }
+  80% { left: 0; top: 90vh; }
   90% { left: 5vw; top: 20vh; }
   100% { left: 5vw; top: 40vh; }
 }
 
 @keyframes six {
-  0% { left: 100vw; top: 0vh; }
+  0% { left: 80vw; top: 0vh; }
   10% { left: 75vw; top: 20vh; }
   20% { left: 90vw; top: 70vh; }
   30% { left: 10vw; top: 50vh; }
-  40% { left: 20vw; top: 90vh; }
-  50% { left: 60vw; top: 20vh; }
-  60% { left: 90vw; top: 30vh; }
+  40% { left: 20vw; top: 80vh; }
+  50% { left: 0vw; top: 20vh; }
+  60% { left: 80vw; top: 30vh; }
   70% { left: 10vw; top: 40vh; }
   80% { left: 15vw; top: 60vh; }
   90% { left: 5vw; top: 20vh; }
-  100% { left: 100vw; top: 0vh; }
+  100% { left: 80vw; top: 0vh; }
 }
 
 @keyframes seven {
@@ -121,7 +123,7 @@
   40% { left: 25vw; top: 10vh; }
   50% { left: 10vw; top: 30vh; }
   60% { left: 5vw; top: 90vh; }
-  70% { left: 0; top: 100vh; }
+  70% { left: 0; top: 50vh; }
   80% { left: 15vw; top: 90vh; }
   90% { left: 15vw; top: 20vh; }
   100% { left: 60vw; top: 50vh; }

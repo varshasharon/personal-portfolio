@@ -18,11 +18,14 @@
 }
 html{
   scroll-behavior: smooth;
-  scroll-padding-top: 75px;
+  overflow-x: hidden;
+  overflow: hidden;
 }
 body{
   position: relative;
   background-color: #fffdf4 !important;
+  overflow: hidden;
+  overflow-x: hidden;
 
 }
 
