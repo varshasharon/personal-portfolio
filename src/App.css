@@ -19,15 +19,13 @@
 html, body{
   overflow-x: hidden; 
   scroll-behavior: smooth;
+  overflow-y: auto;
   
 }
-html{
-  scroll-behavior: smooth;
-}
+
 body{
   position: relative;
   background-color: #fffdf4 !important;
-
 }
 
 
