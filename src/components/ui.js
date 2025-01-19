@@ -29,10 +29,18 @@ const Ui = () => {
                     </div>
 
                     <div className="skills__data" data-aos="zoom-in">
-                    <i class='bx bxl-adobe bx-tada' ></i>
+                    <i class='bx bx-navigation bx-tada'></i>
                     <div>
-                    <h3 className="skills__name" >Adobe Express</h3>
-                    <span className="skills__level">Intermediate</span>
+                    <h3 className="skills__name">Wireframing & Prototyping</h3>
+                    <span className="skills__level">Advanced</span>
+                    </div>
+                    </div>
+
+                    <div className="skills__data" data-aos="zoom-in">
+                    <i class='bx bxs-magic-wand bx-tada'></i>
+                    <div>
+                    <h3 className="skills__name">Mockups</h3>
+                    <span className="skills__level">Proficient</span>
                     </div>
                     </div>
 
@@ -45,20 +53,18 @@ const Ui = () => {
                     </div>
 
                     <div className="skills__data" data-aos="zoom-in">
-                    <i class='bx bxs-magic-wand bx-tada'></i>
+                    <i class='bx bxl-adobe bx-tada' ></i>
                     <div>
-                    <h3 className="skills__name">Interaction Design (IxD)</h3>
-                    <span className="skills__level">Advanced</span>
+                    <h3 className="skills__name" >Adobe After Effects</h3>
+                    <span className="skills__level">Basic</span>
                     </div>
                     </div>
 
-                    <div className="skills__data" data-aos="zoom-in">
-                    <i class='bx bx-navigation bx-tada'></i>
-                    <div>
-                    <h3 className="skills__name">Wireframing & Prototyping</h3>
-                    <span className="skills__level">Advanced</span>
-                    </div>
-                    </div>
+                    
+
+                    
+
+                    
 
                 </div>
                 <div className="skills__group">

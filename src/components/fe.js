@@ -23,16 +23,8 @@ const Fe = () => {
                     <div className="skills__data" data-aos="zoom-in">
                     <i class='bx bxl-html5 bx-tada'></i>
                     <div>
-                    <h3 className="skills__name">HTML</h3>
-                    <span className="skills__level">Proficient</span>
-                    </div>
-                    </div>
-
-                    <div className="skills__data" data-aos="zoom-in">
-                    <i class='bx bxl-css3 bx-tada' ></i>
-                    <div>
-                    <h3 className="skills__name">CSS</h3>
-                    <span className="skills__level">Proficient</span>
+                    <h3 className="skills__name">HTML & CSS</h3>
+                    <span className="skills__level">Advanced</span>
                     </div>
                     </div>
 
@@ -40,22 +32,32 @@ const Fe = () => {
                     <i class='bx bxl-javascript bx-tada' ></i>
                     <div>
                     <h3 className="skills__name">Javascript</h3>
-                    <span className="skills__level">Intermediate</span>
+                    <span className="skills__level">Proficient</span>
+                    </div>
                     </div>
 
-                    </div>
-                    <div className="skills__data" data-aos="zoom-in">
-                    <i class='bx bxl-bootstrap bx-tada' ></i>
-                    <div>
-                    <h3 className="skills__name">Bootstrap</h3>
-                    <span className="skills__level">Intermediate</span>
-                    </div>
-                    </div>
 
                     <div className="skills__data" data-aos="zoom-in">
                     <i class='bx bxl-react bx-tada' ></i>
                     <div>
-                    <h3 className="skills__name">React</h3>
+                    <h3 className="skills__name">ReactJS</h3>
+                    <span className="skills__level">Proficient</span>
+                    </div>
+                    </div>
+
+                    
+                    <div className="skills__data" data-aos="zoom-in">
+                    <i class='bx bxl-mongodb bx-tada' ></i>
+                    <div>
+                    <h3 className="skills__name">MongoDB</h3>
+                    <span className="skills__level">Intermediate</span>
+                    </div>
+                    </div>
+
+                    <div className="skills__data" data-aos="zoom-in">
+                    <i class='bx bxl-nodejs bx-tada' ></i>
+                    <div>
+                    <h3 className="skills__name">NodeJS</h3>
                     <span className="skills__level">Basic</span>
                     </div>
                     </div>

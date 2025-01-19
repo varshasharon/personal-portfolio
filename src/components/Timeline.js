@@ -25,7 +25,7 @@ export default function Timeline() {
           {({ isVisible}) =>
             <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
         <div className="timeline left"  >
-          <MDBCard data-aos="slide-right">
+          <MDBCard data-aos="slide-right" >
             <MDBCardBody className="p-4" >
               <h3>2022</h3>
               <h5>Intern at Smartknower</h5>
@@ -69,7 +69,7 @@ export default function Timeline() {
           <MDBCard data-aos="slide-right">
             <MDBCardBody className="p-4">
               <h3>2024</h3>
-              <h5>UI/UX Intern ay Skill First Labs</h5>
+              <h5>UI/UX Intern at Skill First Labs</h5>
               <p className="mb-0">
               Interned at Skill First Labs, a startup specializing in LMS software products, as a UI/UX designer. In this role, I collaborated with cross-functional teams to design a highly functional website while ensuring the designs aligned with end user's requirements and product goals. This experience allowed me to stay updated on the latest design trends and tools while effectively communicating with developers and internal teams.
               </p>

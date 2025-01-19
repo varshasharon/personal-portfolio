@@ -6,10 +6,16 @@ import projImg2 from "../assets/img/fe3.png";
 import projImg3 from "../assets/img/ui1.png";
 import projImg4 from "../assets/img/fe1.png";
 import projImg5 from "../assets/img/ui4.png";
-import projImg6 from "../assets/img/fe4.png";
+import projImg6 from "../assets/img/fe2.png";
 import projImg7 from "../assets/img/bento-ui.png";
 import projImg8 from "../assets/img/dasboard.png";
-import projImg9 from '../assets/img/ui2.png'
+import projImg9 from '../assets/img/ui2.png';
+import projImg10 from "../assets/img/ui6.png";
+import projImg11 from '../assets/img/ui7.png';
+import projImg12 from '../assets/img/ui8.png';
+import projImg13 from "../assets/img/fe5.png";
+import projImg14 from '../assets/img/fe6.png';
+import projImg15 from '../assets/img/fe7.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -26,14 +32,34 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "The Plant Shop",
+      title: "EcoFolia",
       description: "UI Design",
-      imgUrl: projImg3,
+      imgUrl: projImg12,
     },
     {
       title: "Tutor Tree",
       description: "UI Design",
       imgUrl: projImg1,
+    },
+    {
+      title: "FrameX",
+      description: "UI Design",
+      imgUrl: projImg10,
+    },
+    {
+      title: "Gaming Portfolio",
+      description: "UI Design",
+      imgUrl: projImg11,
+    },
+    {
+      title: "The Sneakers Club",
+      description: "UI Design",
+      imgUrl: projImg5,
+    },
+    {
+      title: "AvatarGen",
+      description: "UI Design",
+      imgUrl: projImg9,
     },
     {
       title: "Trackr Dashboard",
@@ -46,23 +72,33 @@ export const Projects = () => {
       imgUrl: projImg7,
     },
     {
-      title: "The Sneakers Club",
+      title: "The Plant Shop",
       description: "UI Design",
-      imgUrl: projImg5,
-    },
-    {
-      title: "AvatarGen",
-      description: "UI Design",
-      imgUrl: projImg9,
+      imgUrl: projImg3,
     }
     
   ];
   const project2 = [
     
     {
+      title: "Gemini AI Clone",
+      description: "ReactJS & Gemini API",
+      imgUrl: projImg13,
+    },
+    {
       title: "The Plant Shop",
       description: "ReactJS",
       imgUrl: projImg6,
+    },
+    {
+      title: "Lush Velvet",
+      description: "HTML, CSS, Bootstrap",
+      imgUrl: projImg15,
+    },
+    {
+      title: "The Eatsy Cuisine",
+      description: "HTML, CSS",
+      imgUrl: projImg2,
     },
     {
       title: "Flavourly",
@@ -70,9 +106,9 @@ export const Projects = () => {
       imgUrl: projImg4,
     },
     {
-      title: "Eatsy Cuisine",
-      description: "HTML, CSS",
-      imgUrl: projImg2,
+      title: "Diavision",
+      description: "React, Python, Data Visualization",
+      imgUrl: projImg14,
     },
   ];
 
@@ -83,7 +119,6 @@ export const Projects = () => {
           <Col size={12}>
 
                 <h2>Projects</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
 
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
@@ -96,7 +131,7 @@ export const Projects = () => {
                     
                   </Nav>
                   <Tab.Content id="slideInUp" >
-                    <Tab.Pane eventKey="first" data-aos="fade-up">
+                    <Tab.Pane eventKey="first">
                       <Row>
                         {
                           projects.map((project, index) => {
@@ -110,7 +145,7 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="second" data-aos="fade-up">
+                    <Tab.Pane eventKey="second" >
                     <Row>
                         {
                           project2.map((project, index) => {

@@ -3,8 +3,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 import navIcon1 from '../assets/img/nav-icon1.png';
 import navIcon2 from '../assets/img/nav-icon2.png';
 import navIcon3 from '../assets/img/nav-icon3.png';
-import imag from '../assets/img/wf.png'
-import wfimg from '../assets/img/wf1.png'
+
+import wfimg from '../assets/img/about.png'
 import './Background.css'; // Import your background CSS
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -85,7 +85,7 @@ export const Banner = () => {
                             <div className="social-icon">
                                 <a href="https://www.linkedin.com/in/varsha-sharon-474ab3227/" target="_blank" ><img src={navIcon1} alt='navicon1' /></a>
                                 <a href="https://github.com/varshasharon" target="_blank"><img src={navIcon2} alt='navicon2' /></a>
-                                <a href="https://www.figma.com/proto/UGqppJEQO0tZegJJtBaZeK/Bento-UI?node-id=1-2&t=Zvhx4Rm7Y9nn8eSf-1" target="_blank"><img src={navIcon3} alt='navicon3' /></a>
+                                <a href="https://www.figma.com/design/2MxTIk0K3a8nOBNAx70AEQ/Projects?node-id=0-1&t=0WInJIYfbA0f22Li-1" target="_blank"><img src={navIcon3} alt='navicon3' /></a>
                             </div>
                         </span>
                         
@@ -96,29 +96,21 @@ export const Banner = () => {
         <section data-aos="fade-up">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,288L48,282.7C96,277,192,267,288,240C384,213,480,171,576,160C672,149,768,171,864,197.3C960,224,1056,256,1152,250.7C1248,245,1344,203,1392,181.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
     <div className="two-column-section" >
-      <div className="text-column" data-aos="zoom-in">
-        <h2>Sketch to Screen: <br/><span>The Wireframing Magic</span></h2>
-        <p><i>Where ideas take shape before they get pixel-perfect!</i></p>
-        <p>
-        Before the pixels and code, every great design starts with a simple sketch. Wireframing is my favorite part of the process because it lets ideas flow without boundaries. This is where I get to test concepts, play around with layouts, and find the best user experiences—all before diving into development. It’s like creating a roadmap that helps bring the big picture into focus, one line at a time.         </p>
-      </div>
-      <div className="image-column">
+    <div className="image-column">
         <img src={wfimg} alt="description" />
       </div>
-    </div>
-    <div className="two-column-section" >
-      
-      <div className="image-column">
-        <img src={imag} alt="description" />
-      </div>
       <div className="text-column" data-aos="zoom-in">
-        <h2>Prototypes in Action: <br/><span>Test Driving Ideas</span></h2>
-        <p><i>Making ideas actionable just ahead of the big reveal!</i></p>
+        <h2>Varsha Sharon</h2>
+        <p><span> a junior web designer, front-end developer & UI/UX enthusiast </span></p>
         <p>
-        Prototypes let me turn sketches into clickable experiences, testing designs and improving usability step by step. It’s a hands-on way to see how users interact with the design and make adjustments before going full speed ahead with development.
+        With a passion for innovation and a knack for blending creativity and code, I specialize in bringing websites to life using technologies like HTML, CSS, JavaScript, and React. From wireframes to fully-deployed projects, I'm in my element when I'm designing and building. <br/><br/>
+        But it’s not all work and no play!<br/><br/> When I’m not glued to my screen perfecting pixels, you’ll find me honing my skills as a 10m rifle shooter or immersing in my art studio as a freelance artist!
         </p>
+        <button><a href="https://varshasharon.github.io/art-portfolio/" target="blank">Visit my gallery!</a></button>
       </div>
+      
     </div>
+    
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,288L48,282.7C96,277,192,267,288,240C384,213,480,171,576,160C672,149,768,171,864,197.3C960,224,1056,256,1152,250.7C1248,245,1344,203,1392,181.3L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
         
         </section>
