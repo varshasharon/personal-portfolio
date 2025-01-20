@@ -40,6 +40,7 @@ export const Projects = () => {
       title: "Tutor Tree",
       description: "UI Design",
       imgUrl: projImg1,
+      
     },
     {
       title: "FrameX",
